@@ -1,3 +1,5 @@
+import requests
+
 print("Hello my name is Mike")
 
 prixEuros = 56 * 6.55957
