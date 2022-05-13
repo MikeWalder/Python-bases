@@ -4,6 +4,9 @@ from bs4 import BeautifulSoup
 url = "https://www.mathieu-crevoulin.com/"
 page = requests.get(url) # récupère le code HTML du site
 
+print(page.status_code) # récupère le status code
+print(page.request) # récupère la méthode de requête (GET ou POST)
+
 # Récupérer le code HTML source
 # print(page.content)
 
