@@ -8,7 +8,7 @@ prix_plat = 12
 total = nbre_personnes * prix_plat
 
 # Texte de sortie 
-text = "Voici les fraisd du repas de ce soir."
+text = "Voici les frais du repas de ce soir."
 text += "Pour " + str(nbre_personnes) + " personnes à " + str(prix_plat) + " euros le plat, "
 text += "cela fait un coût total de " + str(total) + " euros."
 
