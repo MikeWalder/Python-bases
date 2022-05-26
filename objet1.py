@@ -1,12 +1,36 @@
 # Notion d'objets en Python
 
 class Etudiant:
-    nom = "Mike"
-    age = 32
-    city = "Lyon"
+
+    def __init__(self, nom, age, city = "Lyon"):
+        self.nom = nom
+        self.age = age
+        self.city = city
 
     def presentationIdentite(self):
-        text = print("Nom : " + self.nom +"\n Age : " + self.age + "\nVille : " + self.city)
-        return text
+        print("Nom : " + self.nom +"\nAge : " + str(self.age) + "\nVille : " + self.city)
 
-Etudiant.presentationIdentite()
+    @classmethod
+    def implementation(cls):
+        return "This is a class method"
+
+        
+
+mike = Etudiant("Mike", 23, "Chalençon")
+mike.presentationIdentite()
+
+# Modifier un attribut de la classe : 
+mike.age = 32
+mike.city = "Strasbourg"
+print(mike.nom + " a maintenant " + str(mike.age) + " ans\nIl vit à " + mike.city)
+
+# Verify the type of a variable
+position = 1, 4, -5
+print("The type of position is : ",type(position))
+coord = {
+    "age" : 23, 
+    "job" : "student",
+    "birthday" : "12/05/2002"
+    }
+print("The type of coord is :",type(coord))
+
