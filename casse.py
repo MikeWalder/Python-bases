@@ -38,3 +38,4 @@ count1_c = count1.count("jour") # retourne 2 donc faux
 print(count1_c)
 count1_d = count1.count(" jour") # retourne 1 donc bon
 print(count1_d)
+
