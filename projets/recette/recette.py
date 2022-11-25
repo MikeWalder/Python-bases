@@ -1,5 +1,5 @@
 import datetime
-destination = '../datas.txt'
+destination = 'projets/recette/output_txt/datas.txt'
 
 choice1 = 'Quiche au saumon'
 choice2 = 'Moules frites'
@@ -36,7 +36,7 @@ print(res)
 x = datetime.datetime.now()
 
 order = res
-order += '\nCommande passée le : ' + str(x) + '\n------------'
+order += '\nCommande faite le : ' + str(x) + '\n------------\n\n'
 
 # Save the result of the order into a specific file
 file_saved = open(destination, "a")

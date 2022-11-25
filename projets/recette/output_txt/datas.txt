@@ -1,0 +1,8 @@
+Votre plat est : Petits pois carottes
+Commande faite le : 2022-11-25 19:50:41.726736
+------------
+
+Votre choix est : Quiche au saumon
+Commande faite le : 2022-11-25 19:50:56.753524
+------------
+
