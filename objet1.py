@@ -2,7 +2,7 @@
 
 class Etudiant:
 
-    def __init__(self, nom, age, city = "Lyon"):
+    def __init__(self, nom, age, city = "Lyon"): # Constructeur
         self.nom = nom
         self.age = age
         self.city = city

@@ -14,20 +14,20 @@ country = 'France'
 cp = '67600'
 print('Hello my name is ' + name + ', I live in ' + country + ' near ' + city + ' (' + cp +')')
 
-# Les listes (équivalent à un tableau) :
 
+# Les listes (équivalent à un tableau) :
 langages_prog = ['HTML', 'CSS', 'PHP', 'SQL', 'JavaScript', 'Java', 'Python']
 print(langages_prog[2] + ' est un langage côté back-end')
 print(langages_prog[0] + ' est un langage côté front-end')
 print(len(langages_prog))
 
-# Tuple (liste immuable) :
 
+# Tuple (liste immuable) :
 reseau_social = ('Facebook', 'Instagram', 'Twitter', 'Linkedin')
 print(reseau_social[0] + ' et ' + reseau_social[3] + ' sont des réseaux sociaux à usage orienté professionnellement')
 
-# Dictionnaire (équivalent sur PHP à un tableau associatif) :
 
+# Dictionnaire (équivalent sur PHP à un tableau associatif) :
 infos_perso = {
     "nom" : "Mike",
     "age" : "32",
@@ -37,7 +37,9 @@ infos_perso = {
 del infos_perso["situation"]
 print(infos_perso["nom"] + ' a ' + infos_perso["age"] + ' ans et est né le ' + infos_perso["anniversaire"])
 
-# LES CONDITIONS
+# -------------------------
+# LES CONDITIONS :
+# -------------------------
 # IF ... ELSE
 soleil = True
 chaud = False
@@ -51,23 +53,29 @@ elif chaud and pluie :
 else :
     print("Autre")
 
+# -------------------------
 # LES BOUCLES
+# -------------------------
 # BOUCLE FOR
+
 liste_villes = ["Nancy", "Lyon", "Grenoble", "Nice", "Bordeaux", "Brest", "Dreux"]
 for ville in liste_villes:
     print("Cette ville s'appelle " + ville)
 for y in range(4):
     print("Ceci est la ligne numéro " + str(y))
 
+# -------------------------
 # BOUCLE WHILE
+# -------------------------
 ligne_min = 3
 ligne_max = 10
 while ligne_min <= ligne_max:
     print("Nous avons la ligne au stade numéro " + str(ligne_min))
     ligne_min += 1
 
-
+# --------------------------
 # LES FONCTIONS
+# --------------------------
 def addition_nombres(a, b, c):
     return a + b + c
 
